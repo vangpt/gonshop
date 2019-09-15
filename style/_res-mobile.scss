@@ -1,0 +1,182 @@
+@media screen and (max-width:576px) {
+    .toggle {
+        display: block;
+        width: 100%;
+        margin: auto;
+        background-color: $color-popular;
+        color: white;
+        padding-right: 10%;
+        box-sizing: border-box;
+        font-size: 25px;
+        text-align: right;
+    }
+
+    #brand {
+        display: block;
+
+        section:first-child {
+            width: 100%;
+            text-align: center;
+        }
+
+        section:nth-child(2) {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            select {
+                width: 40%;
+                font-size: 0.7rem;
+            }
+
+            div {
+                width: 60%;
+            }
+        }
+
+        section:last-child {
+            display: none;
+        }
+    }
+
+    nav {
+        ul {
+            display: none;
+
+            li {
+                text-align: center;
+                width: 100% !important;
+            }
+        }
+    }
+
+    #shop-dropdown {
+        width: 100% !important;
+        top: 40px !important;
+        z-index: 1 !important;
+
+        li {
+            padding: 15px 0;
+        }
+    }
+
+    .active {
+        display: block;
+    }
+
+    .bg-khoi {
+        display: none;
+    }
+
+    .khoi {
+        padding: 150px 0;
+    }
+
+    .free-text {
+        display: block !important;
+        padding: 0 5%;
+
+        .free__item {
+            display: block;
+            width: 100% !important;
+            color: white;
+            position: static !important;
+            text-align: center;
+            margin: 20px 0;
+
+            i {
+                font-size: 50px !important;
+                border-right: none !important;
+                padding: 10px 10%;
+            }
+
+            .free-content {
+                div {
+                    span {
+                        font-size: 22px !important;
+                    }
+                }
+
+                font-size: 17px;
+            }
+        }
+    }
+
+    .item--blue {
+        background-color: #75a6d4;
+    }
+
+    .item--green {
+        background-color: #8ed2c7;
+    }
+
+    .item--red {
+        background-color: #ecb3b8;
+    }
+
+    .pro5 {
+        justify-content: space-around !important;
+        margin: auto !important;
+    }
+
+    .clothes {
+        width: 120px;
+        padding: 0 10px !important;
+
+
+        &__img {
+            width: 100% !important;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__cart {
+            display: none;
+        }
+
+        &__title {
+            margin-top: -60px !important;
+            width: 110% !important;
+            font-size: 0.9rem !important;
+
+        }
+
+        &__type {
+            width: 110% !important;
+            font-size: 0.8rem !important;
+        }
+
+        &_cost {
+            font-size: 0.9rem;
+            width: 110% !important;
+
+        }
+
+        &__star {
+            font-size: 0.7rem;
+            width: 110% !important;
+
+        }
+    }
+
+    .footer {
+        h3 {
+            font-size: 0.8rem;
+        }
+
+        .recent-calendar {
+            div {
+                font-size: 0.7rem !important;
+            }
+        }
+        img{
+            width:70%;
+        }
+
+        font-size: 0.7rem;
+    }
+    
+}

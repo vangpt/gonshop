@@ -1,0 +1,146 @@
+
+#brand{
+    display: flex;
+    height: 115px;
+    align-items:center;
+    section:first-child{
+        flex-grow: 1;
+        a{
+            font-size: 1.7em;
+            i{
+                color: $color-popular;
+            }
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    section:nth-child(2){
+        display: flex;  
+        height: 30px;
+        select{
+            padding:0px 50px 0px 10px;
+            border:1px solid gray;
+           
+        }
+        div{
+            border: $border-popular;
+            
+            input[type=text]{
+                border:none;
+                width:140px;
+                padding:5px 0;
+            }
+            button{
+                background-color:white;
+                border:none;
+                padding:0 10px;
+            }
+            i{  
+                width:5px;
+               
+                cursor: pointer;
+            }
+        }
+    }
+    section:last-child{
+        border:none;
+        line-height: 29px;
+        margin-left: 10px;
+        
+        div{
+            background-color:$color-popular;
+            display: inline-block;
+            border:1px solid $color-popular;            
+            padding:0 7px;
+        }
+        
+        i{
+            color:white;
+            font-size: 20px;
+        }
+        div:last-child{
+            height: 31px;
+            background-color:white;
+            padding:0 5px;
+            span{
+                font-size: 12px;
+
+            }
+        }
+    }
+}
+nav{
+
+    background-color:#ecf0f1;
+    border-top:0.8px solid #95a5a6;
+    ul{
+
+        li{
+            display:inline-block;
+            padding:15px;
+            transition: 0.5s;
+            i{
+                margin:0 10px 0px 5px;
+            }
+        }
+        .bar{
+            a{
+                font-weight: bold;
+                
+            }
+        }
+        .bar:hover{
+            background: white;
+            i{
+                color: $color-popular;
+            }
+            a{
+                color:black;
+            }
+        }
+        li:hover{
+            background: white;
+            a{
+                font-weight: 600;
+                color: $color-popular;
+            }
+        }
+        .shopdrop{
+            position: relative;
+        }
+        .shopdrop:hover{
+            transition:0.5s;
+            #shop-dropdown{
+                display:block;  
+            }
+        }
+        #shop-dropdown{
+            position: absolute;
+            width:150px;
+            background-color:#ecf0f1;
+            top:50px;
+            left:0;
+            display: none;
+            li{
+                display: block;
+                background-color:#2c3e50;
+                a{
+                    font-weight: none !important;
+                }
+            }
+            li:first-child{
+                font-weight: none;
+            }
+            li:hover{
+                a{
+                    color:gray;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+.nav-mobile{
+    display: none;
+}

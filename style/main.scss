@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font:15px/1.5 Arial;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.container{
+    max-width: 80%;
+    margin:auto;
+}
+$border-popular: 1px solid gray;
+$color-popular: #34c6b0;
+@import "./header";
+@import "./body";
+@import "./footer";
+@import "./res-ipad";
+@import "./res-mobile";

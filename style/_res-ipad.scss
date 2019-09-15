@@ -1,0 +1,87 @@
+@media screen and (max-width: 768px){
+    
+    #brand{
+        justify-content: space-between !important;
+        section:first-child{
+            flex:none;
+        }
+        section:nth-child(2){
+            margin-left:15px;
+            select{
+                font-size: 15px;
+                padding:0px 20px 0px 10px;
+                .category{
+                    font-size: 15px;
+                }
+            }
+            div{
+                form{
+                   font-size: 15px;
+                   input[type=text]{
+                       width:70%;
+                   }
+                }
+            }
+        }
+        section:last-child{
+            margin-left:0px;
+            div:first-child{
+                display:none;
+            }
+            div:last-child{
+                font-size: 11px;
+            }
+        }
+
+    }
+    nav{
+        ul{
+            li{
+                padding:10px;
+                a{
+                    font-size: 13px;
+                    
+                }
+            }
+        }
+    }
+    #product{
+        padding:30px 0px;
+    }
+    .pro-side{
+        width:20% !important;
+        height: fit-content;
+        img{
+            width:100%;
+        }
+    }
+    .pro-main{
+        width:80%;
+        padding:0px 0px 0px 30px;
+        
+    }
+    .pro{
+        width:100%;
+    }
+    #free{
+        img{
+            height: 100px;
+        }
+    }
+    .free-content{    
+        div{
+            font-size: 14px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+    .icon-free{
+        padding:10px;
+        font-size: 25px !important;
+        
+    }
+    .clothes--none{
+        display: block;
+    }
+}

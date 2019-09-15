@@ -1,0 +1,112 @@
+
+footer {
+    background-color: #383838;
+    padding: 60px 0;
+    margin-top:80px;
+    article{
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+    }
+    .footer {
+        h3 {
+            color: white;
+            text-transform: uppercase;
+        }
+
+        ul {
+            li {
+                color: #515151;
+                margin-bottom: 20px;
+
+                span {
+                    color: white;
+                }
+
+                a {
+                    color: #515151;
+                }
+            }
+
+            li:last-child {
+                a {
+
+                    margin-right: 20px;
+
+
+                    i {
+                        font-size: 20px;
+                        color: white;
+                        transition: 0.4s;
+                    }
+                }
+
+                a:hover i {
+                    animation: social 0.4s ease 0.2s 1 normal none;
+                    color: aquamarine;
+                    transform: scale(1.5);
+                }
+            }
+        }
+
+        &__recent {
+            display:flex;
+            flex-flow:row wrap;
+            justify-content: space-between;
+            margin-bottom:20px;
+            border-bottom:1px solid #515151;
+            padding-bottom:20px;
+            padding-right:5px;
+            .recent-calendar {
+                width: 50px;
+                padding: 5px 10px;
+
+                border: 2px solid #3b6e65;
+                text-align: center;
+                color: white;
+
+                div:first-child {
+                    font-weight: bold;
+                    font-size: 18px;
+
+                    border-bottom: 1px solid #3b6e65;
+                    margin-bottom: 5px;
+                }
+
+                div:last-child {
+                    font-size: 12px;
+                }
+            }
+            .recent-text{
+                a{color: #515151;}
+                width:230px;
+            }
+        
+        }
+        &__recent:last-child{
+            border:none;
+        }
+        
+    }
+}
+.recent{
+    width:300px;
+}
+
+@keyframes social {
+    0% {
+        transform: scale(1);
+        color: aquamarine;
+    }
+
+    50% {
+        color: aquamarine;
+        transform: scale(2);
+    }
+    
+    100% {
+        
+        color: aquamarine;
+    }
+
+}
